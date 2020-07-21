@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .icon{
+            fill:currentColor;
+            display:block;
+        }
+        .icon.car{
+            color: cornflowerblue;
+            width: 173px;
+        }
+        .icon.clock{
+            color:crimson;
+            width: 62px;
+            height: 62px;
+        }
+    </style>
+</head>
+<body>
+    <svg class="icon car" viewBox="0 0 173 173">
+        <use xlink:href="generalSvgs.svg#car"></use>
+    </svg>
+    <svg class="icon clock" viewBox="0 0 62 62">
+        <use xlink:href="generalSvgs.svg#clock"></use>
+    </svg>
+    <script src="svgxuse.js"></script>
+</body>
+</html>
